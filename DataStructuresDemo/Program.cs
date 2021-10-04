@@ -27,13 +27,20 @@ namespace DataStructuresDemo
             //linkedListDemo.Search(30);
             //linkedListDemo.Display();
 
-            LinkedListStack linkedListStack = new LinkedListStack();
-            linkedListStack.push(56);
-            linkedListStack.push(30);
-            linkedListStack.push(70);
-            linkedListStack.Peek();
-            linkedListStack.Pop();
-            linkedListStack.Display();
+            //LinkedListStack linkedListStack = new LinkedListStack();
+            //linkedListStack.push(56);
+            //linkedListStack.push(30);
+            //linkedListStack.push(70);
+            //linkedListStack.Peek();
+            //linkedListStack.Pop();
+            //linkedListStack.Display();
+
+            LinkedListQueue linkedListQueue = new LinkedListQueue();
+            linkedListQueue.Enqueue(56);
+            linkedListQueue.Enqueue(30);
+            linkedListQueue.Enqueue(70);
+            linkedListQueue.Dequeue();
+            linkedListQueue.Display();
         }
     }
 }
